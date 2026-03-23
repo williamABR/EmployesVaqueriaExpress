@@ -11,12 +11,19 @@ const Employee = require('../src/models/Employee');
 
 // ─── EDITA ESTA LISTA CON TUS EMPLEADOS ────────────────────
 const EMPLEADOS = [
-  // Celulares personales: el empleado es quien compra
-  { nombre: 'Carlos Martínez', telefono: '573001234567', cargo: 'Mesero',          requiresBuyerName: false },
-  { nombre: 'Ana Rodríguez',   telefono: '573009876543', cargo: 'Cocinera',         requiresBuyerName: false },
   // Celular compartido (caja): puede ser cualquier persona quien compra
-  { nombre: 'Caja Principal',  telefono: '573005551234', cargo: 'Caja Compartida',  requiresBuyerName: true  },
-  { nombre: 'Bodega',          telefono: '573004445678', cargo: 'Bodega Compartida',requiresBuyerName: true  },
+  { nombre: 'William Baquero',  telefono: '573204897354', cargo: 'Admin',  requiresBuyerName: true  },
+  { nombre: 'Angela M Baquero',          telefono: '673204253763', cargo: 'Admin',requiresBuyerName: true  },
+  { nombre: 'Angela Rojas',          telefono: '573105560904', cargo: 'Admin',requiresBuyerName: true  },
+  { nombre: 'Juan Baquero',          telefono: '573106982440', cargo: 'Admin',requiresBuyerName: true  },
+  { nombre: 'Gabriela Baquero',          telefono: '573024193509', cargo: 'Admin',requiresBuyerName: true  },
+
+  { nombre: 'Alejandro',          telefono: '573046501881', cargo: 'Empleado',requiresBuyerName: true  },
+  { nombre: 'Karen',          telefono: '573007876555', cargo: 'Empleado',requiresBuyerName: true  },
+  { nombre: 'Dayana Mora',          telefono: '573054488098', cargo: 'Empleado',requiresBuyerName: true  },
+  { nombre: 'Jimena',          telefono: '573125293479', cargo: 'Empleado',requiresBuyerName: true  },
+  { nombre: 'David',          telefono: '573115082943', cargo: 'Empleado',requiresBuyerName: true  },
+
 ];
 // ───────────────────────────────────────────────────────────
 
